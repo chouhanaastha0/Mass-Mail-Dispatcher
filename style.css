@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightpink;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    
+    padding: 30px;
+    background-color: rgba(121, 44, 44, 0.918);
+}
+li{
+    /* display: inline; */
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    flex-direction: column;
+    color: antiquewhite;
+}
+#head{
+    font-size: 50px;
+    text-align: center;
+}
+#box-heading{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+.mailInfo{
+    width: 500px;
+    position: relative;
+    height: 65%;
+    background-color: rgb(204,211,214);
+    background: linear-gradient(to top left,#ffffff,#ffffff33);
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+    left: 60%;
+    margin-bottom: 8%;
+    
+    
+}
+#from,#subject{
+    margin: 14px;
+    padding: 10px;
+    width: 470px;
+    height: 40px;
+    border-radius: 4px;
+}
+#msg{
+    margin: 14px;
+    padding: 10px;
+    width: 470px;
+    height: 470px;
+    border-radius: 4px;
+}
+#submit{
+    width: 5cm;
+    height: 3cm;
+    margin: 0;
+    margin-top: 10%;
+    
+    position: absolute;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+}
+button{
+    background: #206a5d;
+    color: #e6dede;
+    border: 2px solid black;
+    font-size: 17px;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin: 15px 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    box-shadow: 0 1px 1px black;
+}
+button:hover,button:focus{
+    background-color: rgb(27,177,144);
+    color: red;
+}
+.select input{
+    background-color: rgb(255,255,255);
+    border: none;
+    margin: 6vh auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px black;
+    font-weight: 600;
+    font-size: 1rem;
+    outline: none;
+    width: 350px;
+}
+.select input::file-selector-button{
+    background: rgb(55, 139, 55);
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 1px 1px #6b4559;
+    outline: none;
+    
+}
+.select input::file-selector-button:hover{
+    background-color: #438a5e;
+    cursor: pointer;
+}
+.tables{
+    width: 1000px;
+    margin: 20px 50px 20px 200px;
+    
+}
+table{
+    text-align: left;
+    float: left;
+    width: 500px;
+}
+hr{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.footer-basic .copyright{
+    margin-top: 60px;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(121, 44, 44, 0.918);
+    color: white;
+    margin-bottom: 0;
+}
+#upload{
+    margin-top: 10%;
+    margin-left: 10%;
+}
